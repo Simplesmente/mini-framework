@@ -1,0 +1,20 @@
+{
+    "name": "simplesmente/mini-framework",
+    "description": "Construindo um mini framework MVC com PHP7",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Teles",
+            "email": "winchestersystem@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^3.1"
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\":"app",
+            "MeuFramework\\":"src"
+        }
+    }
+}
